@@ -1,4 +1,7 @@
 name: MSZR
+on:
+  push:
+    branches: [ main ]
 jobs:
   test:
     timeout-minutes: 60
